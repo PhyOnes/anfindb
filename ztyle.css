@@ -1,0 +1,96 @@
+/* FORM */
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formBox {
+  border: 2px solid #333;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.formItem input {
+  padding: 10px 20px;
+  margin: 10px 0px;
+}
+
+.formAddButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.formAddButton input {
+  text-align: center;
+  padding: 10px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.option {
+  margin: 10px 0px;
+  text-align: center;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+.option option {
+  background-color: #fff;
+}
+
+/* EDIT DATA */
+.formAddButtonS {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.formAddButtonS input {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* VIEW TASK */
+.tabel {
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.tabel th {
+  padding: 0px 20px;
+}
+
+.tabelView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.newDataView {
+  text-align: center;
+}
+
+.buttonNewData {
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.tabelView table tr td {
+  padding: 10px;
+}
+
+.mainButton {
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
